@@ -1,0 +1,35 @@
+https://kinsta.com/blog/laravel-api/#prerequisites
+
+Cloning laravel project from github
+=========================
+
+1.Run git clone <my-cool-project>
+2.Run composer install
+3.Run cp .env.example .env
+4.Run php artisan key:generate
+5.Run php artisan migrate
+6.Run php artisan serve
+7.Go to link localhost:8000
+
+
+==========================
+
+1. Crear el Modelo:
+php artisan make:model Rol -m
+
+2. Crear el código para la migración
+   php artisan migrate
+
+3. Crear un controller
+php artisan make:controller RolController --model=Rol
+
+
+==========================
+Instalar librería para word
+
+composer require phpoffice/phpword
+
+trabajar con el orm de php
+
+https://laravel.com/docs/10.x/eloquent#retrieving-or-creating-models
+Eloquent
